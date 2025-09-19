@@ -3,52 +3,472 @@ _G.Language = "pt" -- opções: "pt", "en", "es"
 
 local Lang = {
     pt = {
-        ReduceGraphics = T("ReduceGraphics"),
-        RestoreGraphics = T("RestoreGraphics"),
-        AntiAFK = "Anti-AFK",
-        AutoRebirth = "Auto Rebirth",
-        InfiniteRebirth = "Rebirth Infinito",
-        Stats = "Estatísticas",
-        ResetStats = "Resetar Estatísticas",
-        CopyStats = T("CopyStats"),
+        Ahoradodiafoitrocadapara = T("Ahoradodiafoitrocadapara"),
+        AURAS = T("AURAS"),
+        AcessarYouTube = T("AcessarYouTube"),
+        ActualWaitingGained0PerHour0PerDay0 = T("ActualWaitingGained0PerHour0PerDay0"),
+        AddFriendstoWhitelistAutomatically = T("AddFriendstoWhitelistAutomatically"),
+        Agorapodepularinfinitamente = T("Agorapodepularinfinitamente"),
+        Agoravocpodeatravessarosobjetos = T("Agoravocpodeatravessarosobjetos"),
+        Andandoa = T("Andandoa"),
+        AntiAFK = T("AntiAFK"),
+        AntiAFKhasbeenenabled = T("AntiAFKhasbeenenabled"),
+        AntiKnockback = T("AntiKnockback"),
+        AntiAFKSystem = T("AntiAFKSystem"),
+        AntiLag = T("AntiLag"),
+        AtivarAntiLag = T("AtivarAntiLag"),
+        AtivarSpeed = T("AtivarSpeed"),
+        AutoBrawls = T("AutoBrawls"),
+        AutoClaimGifts = T("AutoClaimGifts"),
+        AutoEatEgg = T("AutoEatEgg"),
+        AutoEgg = T("AutoEgg"),
+        AutoHandstands = T("AutoHandstands"),
+        AutoOpenAuras = T("AutoOpenAuras"),
+        AutoOpenPet = T("AutoOpenPet"),
+        AutoPunch = T("AutoPunch"),
+        AutoPushups = T("AutoPushups"),
+        AutoRebirthInfinite = T("AutoRebirthInfinite"),
+        AutoRebirthTarget = T("AutoRebirthTarget"),
+        AutoSitups = T("AutoSitups"),
+        AutoSize1 = T("AutoSize1"),
+        AutoSpinWheel = T("AutoSpinWheel"),
+        AutoTeleporttoMuscleKing = T("AutoTeleporttoMuscleKing"),
+        AutoWeight = T("AutoWeight"),
+        AutoWinBrawls = T("AutoWinBrawls"),
+        AutomaticallyRemoveEveryoneExceptWhitelist = T("AutomaticallyRemoveEveryoneExceptWhitelist"),
+        BrawlDesert = T("BrawlDesert"),
+        BrawlLava = T("BrawlLava"),
+        BrawlRegular = T("BrawlRegular"),
+        Brawls = T("Brawls"),
+        ChangeTime = T("ChangeTime"),
+        ClearWhiteList = T("ClearWhiteList"),
+        Comer1Ovo = T("Comer1Ovo"),
+        CopiarEstatsticas = T("CopiarEstatsticas"),
+        Criadoporsnow = T("Criadoporsnow"),
+        Delayajustadopara = T("Delayajustadopara"),
+        DeleteTarget = T("DeleteTarget"),
+        DeleteTargetAutomatically = T("DeleteTargetAutomatically"),
+        DesativarAntiLag = T("DesativarAntiLag"),
+        Desligadocomsucesso = T("Desligadocomsucesso"),
+        DestruirPortal = T("DestruirPortal"),
+        Durability = T("Durability"),
+        EntradaInvlida = T("EntradaInvlida"),
+        EntrarnoDiscord = T("EntrarnoDiscord"),
+        EquiparSamurai = T("EquiparSamurai"),
+        Erroaocarregarwhitelist = T("Erroaocarregarwhitelist"),
+        Error = T("Error"),
+        Estatsticas = T("Estatsticas"),
+        EstatsticasdeMuscleLegendsnn = "Estatísticas de Muscle Legends:
+
+",
+        EternalRock = T("EternalRock"),
+        FastRebirththeFastStrengthpack = T("FastRebirththeFastStrengthpack"),
+        FastStrengthpack = T("FastStrengthpack"),
+        FastTools = T("FastTools"),
+        FeitoporSnowZ = T("FeitoporSnowZ"),
+        FrozenRock = T("FrozenRock"),
+        FunesdeEggFarmBySnowZN = T("FunesdeEggFarmBySnowZN"),
+        GamepassAutoLift = T("GamepassAutoLift"),
+        HideFramespack = T("HideFramespack"),
+        Horatrocada = T("Horatrocada"),
+        Inferno = T("Inferno"),
+        JogadorMarcado = T("JogadorMarcado"),
+        JogadorMarcadoNenhum = T("JogadorMarcadoNenhum"),
+        JumpyInfinite = T("JumpyInfinite"),
+        Jungle = T("Jungle"),
+        JungleBenchPress = T("JungleBenchPress"),
+        JungleBoulder = T("JungleBoulder"),
+        JunglePullUps = T("JunglePullUps"),
+        JungleRock = T("JungleRock"),
+        JungleSquat = T("JungleSquat"),
+        Kills = T("Kills"),
+        Legend = T("Legend"),
+        LegendBeachRock = T("LegendBeachRock"),
+        LegendRock = T("LegendRock"),
+        LinkdoDiscordcopiadoColenonavegadorounodiscordparaentrar = T("LinkdoDiscordcopiadoColenonavegadorounodiscordparaentrar"),
+        LinkdoYouTubecopiadoColenonavegadorparaacessarmeucanal = T("LinkdoYouTubecopiadoColenonavegadorparaacessarmeucanal"),
+        LockPositionpack = T("LockPositionpack"),
+        MuscleKingGym = T("MuscleKingGym"),
+        MuscleKingRock = T("MuscleKingRock"),
+        Mythical = T("Mythical"),
+        MythicalRock = T("MythicalRock"),
+        Nenhumovodisponvelnoinventrio = T("Nenhumovodisponvelnoinventrio"),
+        Nenhumovoencontradonoinventrio = T("Nenhumovoencontradonoinventrio"),
+        NoClip = T("NoClip"),
+        NoClipAtivado = T("NoClipAtivado"),
+        Novavelocidade = T("Novavelocidade"),
+        NovoObjetivo = T("NovoObjetivo"),
+        Oprogressodeestatsticasforamreinciados = T("Oprogressodeestatsticasforamreinciados"),
+        OPfarmPackBySnowZN = T("OPfarmPackBySnowZN"),
+        ObjetivoAtualizado = T("ObjetivoAtualizado"),
+        Paradesligarsaiadojogooucliqueabaixoondevocclicou = T("Paradesligarsaiadojogooucliqueabaixoondevocclicou"),
         Pets = T("Pets"),
-        Auras = "Auras",
-        Misc = T("Misc"),
-        WalkOnWater = "Andar sobre a Água",
-        AutoSpinWheel = "Auto Girar Roleta",
-        AutoClaimGifts = "Auto Coletar Presentes"
+        PlayersontheWhiteList = T("PlayersontheWhiteList"),
+        Porfavorcoloqueumnmerovlidomaiorque0 = T("Porfavorcoloqueumnmerovlidomaiorque0"),
+        Portaldestruido = T("Portaldestruido"),
+        Positionnotfoundfor = T("Positionnotfoundfor"),
+        PuloInfinitoAtivado = T("PuloInfinitoAtivado"),
+        RebirthAlcanado = T("RebirthAlcanado"),
+        RebirthFarmpack = T("RebirthFarmpack"),
+        Rebirths = T("Rebirths"),
+        ReduzirGrficos = T("ReduzirGrficos"),
+        RemoveEveryoneExceptWhitelist = T("RemoveEveryoneExceptWhitelist"),
+        RemovePortals = T("RemovePortals"),
+        RemoveTarget = T("RemoveTarget"),
+        ResetStats = T("ResetStats"),
+        RestaurarGrficos = T("RestaurarGrficos"),
+        SecretArea = T("SecretArea"),
+        SelecionarPet = T("SelecionarPet"),
+        SelectAura = T("SelectAura"),
+        Snowpaid = T("Snowpaid"),
+        Spawn = T("Spawn"),
+        SpeedHackAtivado = T("SpeedHackAtivado"),
+        SpeedHackDesligado = T("SpeedHackDesligado"),
+        StarterRock = T("StarterRock"),
+        Strength = T("Strength"),
+        TargetPlayerNone = T("TargetPlayerNone"),
+        Telapretaativada = T("Telapretaativada"),
+        Telapretadesativada = T("Telapretadesativada"),
+        TeleportFrozen = T("TeleportFrozen"),
+        TeleportandoaCombatedePraia = T("TeleportandoaCombatedePraia"),
+        TeleportandoaSelva = T("TeleportandoaSelva"),
+        TeleportandoaareaInferno = T("TeleportandoaareaInferno"),
+        TeleportandoaareadasLendas = T("TeleportandoaareadasLendas"),
+        TeleportandoailhadeLava = T("TeleportandoailhadeLava"),
+        TeleportandoareaCongelada = T("TeleportandoareaCongelada"),
+        TeleportandoareaMstica = T("TeleportandoareaMstica"),
+        TeleportandoareaPequena = T("TeleportandoareaPequena"),
+        TeleportandoareaSecreta = T("TeleportandoareaSecreta"),
+        TeleportandoaoInicio = T("TeleportandoaoInicio"),
+        TeleportandoaoReidoMusculo = T("TeleportandoaoReidoMusculo"),
+        TeleportandoaoilhadeDeserto = T("TeleportandoaoilhadeDeserto"),
+        Teleporte = T("Teleporte"),
+        TimeOfSession = T("TimeOfSession"),
+        Time000000 = T("Time000000"),
+        TinyIsland = T("TinyIsland"),
+        TinyRock = T("TinyRock"),
+        TirarPets = T("TirarPets"),
+        VelocidadeDefinida = T("VelocidadeDefinida"),
+        Velocidadevoltouaonormal16 = T("Velocidadevoltouaonormal16"),
+        Vocalcanou = T("Vocalcanou"),
+        VocnoestautorizadoparaUsaresseScriptcompraoupeaaodono = T("VocnoestautorizadoparaUsaresseScriptcompraoupeaaodono"),
+        WalkonWater = T("WalkonWater"),
+        WhitelistedPlayersNone = T("WhitelistedPlayersNone"),
+        ZenithStore = T("ZenithStore"),
+        ServidorOficialdoScript = T("ServidorOficialdoScript"),
+        MeuCanalnoYouTube = T("MeuCanalnoYouTube"),
     },
     en = {
-        ReduceGraphics = "Reduce Graphics",
-        RestoreGraphics = "Restore Graphics",
-        AntiAFK = "Anti-AFK",
-        AutoRebirth = "Auto Rebirth",
-        InfiniteRebirth = "Infinite Rebirth",
-        Stats = "Statistics",
-        ResetStats = "Reset Statistics",
-        CopyStats = "Copy Statistics",
-        Pets = T("Pets"),
-        Auras = "Auras",
-        Misc = T("Misc"),
-        WalkOnWater = T("WalkOnWater"),
+        Ahoradodiafoitrocadapara = T("Ahoradodiafoitrocadapara"),
+        AURAS = T("AURAS"),
+        AcessarYouTube = T("AcessarYouTube"),
+        ActualWaitingGained0PerHour0PerDay0 = T("ActualWaitingGained0PerHour0PerDay0"),
+        AddFriendstoWhitelistAutomatically = T("AddFriendstoWhitelistAutomatically"),
+        Agorapodepularinfinitamente = T("Agorapodepularinfinitamente"),
+        Agoravocpodeatravessarosobjetos = T("Agoravocpodeatravessarosobjetos"),
+        Andandoa = T("Andandoa"),
+        AntiAFK = T("AntiAFK"),
+        AntiAFKhasbeenenabled = T("AntiAFKhasbeenenabled"),
+        AntiKnockback = T("AntiKnockback"),
+        AntiAFKSystem = T("AntiAFKSystem"),
+        AntiLag = T("AntiLag"),
+        AtivarAntiLag = T("AtivarAntiLag"),
+        AtivarSpeed = T("AtivarSpeed"),
+        AutoBrawls = T("AutoBrawls"),
+        AutoClaimGifts = T("AutoClaimGifts"),
+        AutoEatEgg = T("AutoEatEgg"),
+        AutoEgg = T("AutoEgg"),
+        AutoHandstands = T("AutoHandstands"),
+        AutoOpenAuras = T("AutoOpenAuras"),
+        AutoOpenPet = T("AutoOpenPet"),
+        AutoPunch = T("AutoPunch"),
+        AutoPushups = T("AutoPushups"),
+        AutoRebirthInfinite = T("AutoRebirthInfinite"),
+        AutoRebirthTarget = T("AutoRebirthTarget"),
+        AutoSitups = T("AutoSitups"),
+        AutoSize1 = T("AutoSize1"),
         AutoSpinWheel = T("AutoSpinWheel"),
-        AutoClaimGifts = T("AutoClaimGifts")
+        AutoTeleporttoMuscleKing = T("AutoTeleporttoMuscleKing"),
+        AutoWeight = T("AutoWeight"),
+        AutoWinBrawls = T("AutoWinBrawls"),
+        AutomaticallyRemoveEveryoneExceptWhitelist = T("AutomaticallyRemoveEveryoneExceptWhitelist"),
+        BrawlDesert = T("BrawlDesert"),
+        BrawlLava = T("BrawlLava"),
+        BrawlRegular = T("BrawlRegular"),
+        Brawls = T("Brawls"),
+        ChangeTime = T("ChangeTime"),
+        ClearWhiteList = T("ClearWhiteList"),
+        Comer1Ovo = T("Comer1Ovo"),
+        CopiarEstatsticas = T("CopiarEstatsticas"),
+        Criadoporsnow = T("Criadoporsnow"),
+        Delayajustadopara = T("Delayajustadopara"),
+        DeleteTarget = T("DeleteTarget"),
+        DeleteTargetAutomatically = T("DeleteTargetAutomatically"),
+        DesativarAntiLag = T("DesativarAntiLag"),
+        Desligadocomsucesso = T("Desligadocomsucesso"),
+        DestruirPortal = T("DestruirPortal"),
+        Durability = T("Durability"),
+        EntradaInvlida = T("EntradaInvlida"),
+        EntrarnoDiscord = T("EntrarnoDiscord"),
+        EquiparSamurai = T("EquiparSamurai"),
+        Erroaocarregarwhitelist = T("Erroaocarregarwhitelist"),
+        Error = T("Error"),
+        Estatsticas = T("Estatsticas"),
+        EstatsticasdeMuscleLegendsnn = "Estatísticas de Muscle Legends:
+
+",
+        EternalRock = T("EternalRock"),
+        FastRebirththeFastStrengthpack = T("FastRebirththeFastStrengthpack"),
+        FastStrengthpack = T("FastStrengthpack"),
+        FastTools = T("FastTools"),
+        FeitoporSnowZ = T("FeitoporSnowZ"),
+        FrozenRock = T("FrozenRock"),
+        FunesdeEggFarmBySnowZN = T("FunesdeEggFarmBySnowZN"),
+        GamepassAutoLift = T("GamepassAutoLift"),
+        HideFramespack = T("HideFramespack"),
+        Horatrocada = T("Horatrocada"),
+        Inferno = T("Inferno"),
+        JogadorMarcado = T("JogadorMarcado"),
+        JogadorMarcadoNenhum = T("JogadorMarcadoNenhum"),
+        JumpyInfinite = T("JumpyInfinite"),
+        Jungle = T("Jungle"),
+        JungleBenchPress = T("JungleBenchPress"),
+        JungleBoulder = T("JungleBoulder"),
+        JunglePullUps = T("JunglePullUps"),
+        JungleRock = T("JungleRock"),
+        JungleSquat = T("JungleSquat"),
+        Kills = T("Kills"),
+        Legend = T("Legend"),
+        LegendBeachRock = T("LegendBeachRock"),
+        LegendRock = T("LegendRock"),
+        LinkdoDiscordcopiadoColenonavegadorounodiscordparaentrar = T("LinkdoDiscordcopiadoColenonavegadorounodiscordparaentrar"),
+        LinkdoYouTubecopiadoColenonavegadorparaacessarmeucanal = T("LinkdoYouTubecopiadoColenonavegadorparaacessarmeucanal"),
+        LockPositionpack = T("LockPositionpack"),
+        MuscleKingGym = T("MuscleKingGym"),
+        MuscleKingRock = T("MuscleKingRock"),
+        Mythical = T("Mythical"),
+        MythicalRock = T("MythicalRock"),
+        Nenhumovodisponvelnoinventrio = T("Nenhumovodisponvelnoinventrio"),
+        Nenhumovoencontradonoinventrio = T("Nenhumovoencontradonoinventrio"),
+        NoClip = T("NoClip"),
+        NoClipAtivado = T("NoClipAtivado"),
+        Novavelocidade = T("Novavelocidade"),
+        NovoObjetivo = T("NovoObjetivo"),
+        Oprogressodeestatsticasforamreinciados = T("Oprogressodeestatsticasforamreinciados"),
+        OPfarmPackBySnowZN = T("OPfarmPackBySnowZN"),
+        ObjetivoAtualizado = T("ObjetivoAtualizado"),
+        Paradesligarsaiadojogooucliqueabaixoondevocclicou = T("Paradesligarsaiadojogooucliqueabaixoondevocclicou"),
+        Pets = T("Pets"),
+        PlayersontheWhiteList = T("PlayersontheWhiteList"),
+        Porfavorcoloqueumnmerovlidomaiorque0 = T("Porfavorcoloqueumnmerovlidomaiorque0"),
+        Portaldestruido = T("Portaldestruido"),
+        Positionnotfoundfor = T("Positionnotfoundfor"),
+        PuloInfinitoAtivado = T("PuloInfinitoAtivado"),
+        RebirthAlcanado = T("RebirthAlcanado"),
+        RebirthFarmpack = T("RebirthFarmpack"),
+        Rebirths = T("Rebirths"),
+        ReduzirGrficos = T("ReduzirGrficos"),
+        RemoveEveryoneExceptWhitelist = T("RemoveEveryoneExceptWhitelist"),
+        RemovePortals = T("RemovePortals"),
+        RemoveTarget = T("RemoveTarget"),
+        ResetStats = T("ResetStats"),
+        RestaurarGrficos = T("RestaurarGrficos"),
+        SecretArea = T("SecretArea"),
+        SelecionarPet = T("SelecionarPet"),
+        SelectAura = T("SelectAura"),
+        Snowpaid = T("Snowpaid"),
+        Spawn = T("Spawn"),
+        SpeedHackAtivado = T("SpeedHackAtivado"),
+        SpeedHackDesligado = T("SpeedHackDesligado"),
+        StarterRock = T("StarterRock"),
+        Strength = T("Strength"),
+        TargetPlayerNone = T("TargetPlayerNone"),
+        Telapretaativada = T("Telapretaativada"),
+        Telapretadesativada = T("Telapretadesativada"),
+        TeleportFrozen = T("TeleportFrozen"),
+        TeleportandoaCombatedePraia = T("TeleportandoaCombatedePraia"),
+        TeleportandoaSelva = T("TeleportandoaSelva"),
+        TeleportandoaareaInferno = T("TeleportandoaareaInferno"),
+        TeleportandoaareadasLendas = T("TeleportandoaareadasLendas"),
+        TeleportandoailhadeLava = T("TeleportandoailhadeLava"),
+        TeleportandoareaCongelada = T("TeleportandoareaCongelada"),
+        TeleportandoareaMstica = T("TeleportandoareaMstica"),
+        TeleportandoareaPequena = T("TeleportandoareaPequena"),
+        TeleportandoareaSecreta = T("TeleportandoareaSecreta"),
+        TeleportandoaoInicio = T("TeleportandoaoInicio"),
+        TeleportandoaoReidoMusculo = T("TeleportandoaoReidoMusculo"),
+        TeleportandoaoilhadeDeserto = T("TeleportandoaoilhadeDeserto"),
+        Teleporte = T("Teleporte"),
+        TimeOfSession = T("TimeOfSession"),
+        Time000000 = T("Time000000"),
+        TinyIsland = T("TinyIsland"),
+        TinyRock = T("TinyRock"),
+        TirarPets = T("TirarPets"),
+        VelocidadeDefinida = T("VelocidadeDefinida"),
+        Velocidadevoltouaonormal16 = T("Velocidadevoltouaonormal16"),
+        Vocalcanou = T("Vocalcanou"),
+        VocnoestautorizadoparaUsaresseScriptcompraoupeaaodono = T("VocnoestautorizadoparaUsaresseScriptcompraoupeaaodono"),
+        WalkonWater = T("WalkonWater"),
+        WhitelistedPlayersNone = T("WhitelistedPlayersNone"),
+        ZenithStore = T("ZenithStore"),
+        ServidorOficialdoScript = T("ServidorOficialdoScript"),
+        MeuCanalnoYouTube = T("MeuCanalnoYouTube"),
     },
     es = {
-        ReduceGraphics = "Reducir Gráficos",
-        RestoreGraphics = T("RestoreGraphics"),
-        AntiAFK = "Anti-AFK",
-        AutoRebirth = "Renacimiento Automático",
-        InfiniteRebirth = "Renacimiento Infinito",
-        Stats = "Estadísticas",
-        ResetStats = "Reiniciar Estadísticas",
-        CopyStats = "Copiar Estadísticas",
-        Pets = "Mascotas",
-        Auras = "Auras",
-        Misc = "Varios",
-        WalkOnWater = "Caminar sobre el Agua",
-        AutoSpinWheel = "Auto Girar Rueda",
-        AutoClaimGifts = "Auto Reclamar Regalos"
+        Ahoradodiafoitrocadapara = T("Ahoradodiafoitrocadapara"),
+        AURAS = T("AURAS"),
+        AcessarYouTube = T("AcessarYouTube"),
+        ActualWaitingGained0PerHour0PerDay0 = T("ActualWaitingGained0PerHour0PerDay0"),
+        AddFriendstoWhitelistAutomatically = T("AddFriendstoWhitelistAutomatically"),
+        Agorapodepularinfinitamente = T("Agorapodepularinfinitamente"),
+        Agoravocpodeatravessarosobjetos = T("Agoravocpodeatravessarosobjetos"),
+        Andandoa = T("Andandoa"),
+        AntiAFK = T("AntiAFK"),
+        AntiAFKhasbeenenabled = T("AntiAFKhasbeenenabled"),
+        AntiKnockback = T("AntiKnockback"),
+        AntiAFKSystem = T("AntiAFKSystem"),
+        AntiLag = T("AntiLag"),
+        AtivarAntiLag = T("AtivarAntiLag"),
+        AtivarSpeed = T("AtivarSpeed"),
+        AutoBrawls = T("AutoBrawls"),
+        AutoClaimGifts = T("AutoClaimGifts"),
+        AutoEatEgg = T("AutoEatEgg"),
+        AutoEgg = T("AutoEgg"),
+        AutoHandstands = T("AutoHandstands"),
+        AutoOpenAuras = T("AutoOpenAuras"),
+        AutoOpenPet = T("AutoOpenPet"),
+        AutoPunch = T("AutoPunch"),
+        AutoPushups = T("AutoPushups"),
+        AutoRebirthInfinite = T("AutoRebirthInfinite"),
+        AutoRebirthTarget = T("AutoRebirthTarget"),
+        AutoSitups = T("AutoSitups"),
+        AutoSize1 = T("AutoSize1"),
+        AutoSpinWheel = T("AutoSpinWheel"),
+        AutoTeleporttoMuscleKing = T("AutoTeleporttoMuscleKing"),
+        AutoWeight = T("AutoWeight"),
+        AutoWinBrawls = T("AutoWinBrawls"),
+        AutomaticallyRemoveEveryoneExceptWhitelist = T("AutomaticallyRemoveEveryoneExceptWhitelist"),
+        BrawlDesert = T("BrawlDesert"),
+        BrawlLava = T("BrawlLava"),
+        BrawlRegular = T("BrawlRegular"),
+        Brawls = T("Brawls"),
+        ChangeTime = T("ChangeTime"),
+        ClearWhiteList = T("ClearWhiteList"),
+        Comer1Ovo = T("Comer1Ovo"),
+        CopiarEstatsticas = T("CopiarEstatsticas"),
+        Criadoporsnow = T("Criadoporsnow"),
+        Delayajustadopara = T("Delayajustadopara"),
+        DeleteTarget = T("DeleteTarget"),
+        DeleteTargetAutomatically = T("DeleteTargetAutomatically"),
+        DesativarAntiLag = T("DesativarAntiLag"),
+        Desligadocomsucesso = T("Desligadocomsucesso"),
+        DestruirPortal = T("DestruirPortal"),
+        Durability = T("Durability"),
+        EntradaInvlida = T("EntradaInvlida"),
+        EntrarnoDiscord = T("EntrarnoDiscord"),
+        EquiparSamurai = T("EquiparSamurai"),
+        Erroaocarregarwhitelist = T("Erroaocarregarwhitelist"),
+        Error = T("Error"),
+        Estatsticas = T("Estatsticas"),
+        EstatsticasdeMuscleLegendsnn = "Estatísticas de Muscle Legends:
+
+",
+        EternalRock = T("EternalRock"),
+        FastRebirththeFastStrengthpack = T("FastRebirththeFastStrengthpack"),
+        FastStrengthpack = T("FastStrengthpack"),
+        FastTools = T("FastTools"),
+        FeitoporSnowZ = T("FeitoporSnowZ"),
+        FrozenRock = T("FrozenRock"),
+        FunesdeEggFarmBySnowZN = T("FunesdeEggFarmBySnowZN"),
+        GamepassAutoLift = T("GamepassAutoLift"),
+        HideFramespack = T("HideFramespack"),
+        Horatrocada = T("Horatrocada"),
+        Inferno = T("Inferno"),
+        JogadorMarcado = T("JogadorMarcado"),
+        JogadorMarcadoNenhum = T("JogadorMarcadoNenhum"),
+        JumpyInfinite = T("JumpyInfinite"),
+        Jungle = T("Jungle"),
+        JungleBenchPress = T("JungleBenchPress"),
+        JungleBoulder = T("JungleBoulder"),
+        JunglePullUps = T("JunglePullUps"),
+        JungleRock = T("JungleRock"),
+        JungleSquat = T("JungleSquat"),
+        Kills = T("Kills"),
+        Legend = T("Legend"),
+        LegendBeachRock = T("LegendBeachRock"),
+        LegendRock = T("LegendRock"),
+        LinkdoDiscordcopiadoColenonavegadorounodiscordparaentrar = T("LinkdoDiscordcopiadoColenonavegadorounodiscordparaentrar"),
+        LinkdoYouTubecopiadoColenonavegadorparaacessarmeucanal = T("LinkdoYouTubecopiadoColenonavegadorparaacessarmeucanal"),
+        LockPositionpack = T("LockPositionpack"),
+        MuscleKingGym = T("MuscleKingGym"),
+        MuscleKingRock = T("MuscleKingRock"),
+        Mythical = T("Mythical"),
+        MythicalRock = T("MythicalRock"),
+        Nenhumovodisponvelnoinventrio = T("Nenhumovodisponvelnoinventrio"),
+        Nenhumovoencontradonoinventrio = T("Nenhumovoencontradonoinventrio"),
+        NoClip = T("NoClip"),
+        NoClipAtivado = T("NoClipAtivado"),
+        Novavelocidade = T("Novavelocidade"),
+        NovoObjetivo = T("NovoObjetivo"),
+        Oprogressodeestatsticasforamreinciados = T("Oprogressodeestatsticasforamreinciados"),
+        OPfarmPackBySnowZN = T("OPfarmPackBySnowZN"),
+        ObjetivoAtualizado = T("ObjetivoAtualizado"),
+        Paradesligarsaiadojogooucliqueabaixoondevocclicou = T("Paradesligarsaiadojogooucliqueabaixoondevocclicou"),
+        Pets = T("Pets"),
+        PlayersontheWhiteList = T("PlayersontheWhiteList"),
+        Porfavorcoloqueumnmerovlidomaiorque0 = T("Porfavorcoloqueumnmerovlidomaiorque0"),
+        Portaldestruido = T("Portaldestruido"),
+        Positionnotfoundfor = T("Positionnotfoundfor"),
+        PuloInfinitoAtivado = T("PuloInfinitoAtivado"),
+        RebirthAlcanado = T("RebirthAlcanado"),
+        RebirthFarmpack = T("RebirthFarmpack"),
+        Rebirths = T("Rebirths"),
+        ReduzirGrficos = T("ReduzirGrficos"),
+        RemoveEveryoneExceptWhitelist = T("RemoveEveryoneExceptWhitelist"),
+        RemovePortals = T("RemovePortals"),
+        RemoveTarget = T("RemoveTarget"),
+        ResetStats = T("ResetStats"),
+        RestaurarGrficos = T("RestaurarGrficos"),
+        SecretArea = T("SecretArea"),
+        SelecionarPet = T("SelecionarPet"),
+        SelectAura = T("SelectAura"),
+        Snowpaid = T("Snowpaid"),
+        Spawn = T("Spawn"),
+        SpeedHackAtivado = T("SpeedHackAtivado"),
+        SpeedHackDesligado = T("SpeedHackDesligado"),
+        StarterRock = T("StarterRock"),
+        Strength = T("Strength"),
+        TargetPlayerNone = T("TargetPlayerNone"),
+        Telapretaativada = T("Telapretaativada"),
+        Telapretadesativada = T("Telapretadesativada"),
+        TeleportFrozen = T("TeleportFrozen"),
+        TeleportandoaCombatedePraia = T("TeleportandoaCombatedePraia"),
+        TeleportandoaSelva = T("TeleportandoaSelva"),
+        TeleportandoaareaInferno = T("TeleportandoaareaInferno"),
+        TeleportandoaareadasLendas = T("TeleportandoaareadasLendas"),
+        TeleportandoailhadeLava = T("TeleportandoailhadeLava"),
+        TeleportandoareaCongelada = T("TeleportandoareaCongelada"),
+        TeleportandoareaMstica = T("TeleportandoareaMstica"),
+        TeleportandoareaPequena = T("TeleportandoareaPequena"),
+        TeleportandoareaSecreta = T("TeleportandoareaSecreta"),
+        TeleportandoaoInicio = T("TeleportandoaoInicio"),
+        TeleportandoaoReidoMusculo = T("TeleportandoaoReidoMusculo"),
+        TeleportandoaoilhadeDeserto = T("TeleportandoaoilhadeDeserto"),
+        Teleporte = T("Teleporte"),
+        TimeOfSession = T("TimeOfSession"),
+        Time000000 = T("Time000000"),
+        TinyIsland = T("TinyIsland"),
+        TinyRock = T("TinyRock"),
+        TirarPets = T("TirarPets"),
+        VelocidadeDefinida = T("VelocidadeDefinida"),
+        Velocidadevoltouaonormal16 = T("Velocidadevoltouaonormal16"),
+        Vocalcanou = T("Vocalcanou"),
+        VocnoestautorizadoparaUsaresseScriptcompraoupeaaodono = T("VocnoestautorizadoparaUsaresseScriptcompraoupeaaodono"),
+        WalkonWater = T("WalkonWater"),
+        WhitelistedPlayersNone = T("WhitelistedPlayersNone"),
+        ZenithStore = T("ZenithStore"),
+        ServidorOficialdoScript = T("ServidorOficialdoScript"),
+        MeuCanalnoYouTube = T("MeuCanalnoYouTube"),
     }
 }
 
@@ -71,7 +491,7 @@ end)
 
 if not success or type(whitelist) ~= "table" then
     warn("Não foi possível carregar a whitelist ou formato inválido. Negando acesso.")
-    Player:Kick("Erro ao carregar whitelist.")
+    Player:Kick(T("Erroaocarregarwhitelist"))
     return
 end
 
@@ -85,7 +505,7 @@ for _, name in ipairs(whitelist) do
 end
 
 if not allowed then
-    Player:Kick("Você não está autorizado para Usar esse Script compra ou peça ao dono.")
+    Player:Kick(T("VocnoestautorizadoparaUsaresseScriptcompraoupeaaodono"))
     return
 end
 
@@ -99,7 +519,7 @@ local leaderstats = player:WaitForChild("leaderstats", 5)
 local displayName = player.DisplayName
 
 -- cria a janela
-local window = library:AddWindow("Snow paid", {
+local window = library:AddWindow(T("Snowpaid"), {
 
 -- 🌐 Dropdown para escolher idioma
 local langDropdown = window:AddDropdown("Idioma / Language / Idioma", function(selected)
@@ -155,11 +575,11 @@ local mainTab = window:AddTab("Main")
 local farmPlusTab = window:AddTab("Farm")
 mainTab:Show() -- Show this tab by default
 
-mainTab:AddLabel("Feito por SnowZ")
+mainTab:AddLabel(T("FeitoporSnowZ"))
 
 -- Add Anti-AFK toggle
 local antiAFKEnabled = true
-mainTab:AddSwitch(T("AntiAFK"), function(bool)
+mainTab:AddSwitch(T("AntiAFKSystem"), function(bool)
 	antiAFKEnabled = bool
 
 	if bool then
@@ -191,7 +611,7 @@ for _, v in pairs(lighting:GetChildren()) do
 end
 
 -- Botão para reduzir gráficos (novo código otimizado)
-mainTab:AddButton(T("ReduceGraphics"), function()
+mainTab:AddButton(T("ReduzirGrficos"), function()
 	local decalsyeeted = true
 	local g = game
 	local w = g.Workspace
@@ -231,7 +651,7 @@ mainTab:AddButton(T("ReduceGraphics"), function()
 end)
 
 -- Botão para restaurar gráficos
-mainTab:AddButton(T("RestoreGraphics"), function()
+mainTab:AddButton(T("RestaurarGrficos"), function()
 	lighting.GlobalShadows = originalSettings.GlobalShadows
 	lighting.FogEnd = originalSettings.FogEnd
 	lighting.Brightness = originalSettings.Brightness
@@ -246,14 +666,14 @@ mainTab:AddButton(T("RestoreGraphics"), function()
 end)
 
 -- Auto Brawls Folder
-local autoBrawlsFolder = mainTab:AddFolder("Auto Brawls")
+local autoBrawlsFolder = mainTab:AddFolder(T("AutoBrawls"))
 
 -- Variables
 local Players = game:GetService("Players")
 local whitelist = {} -- Add any whitelisted player IDs here
 
 -- Auto Win Brawl Toggle
-local autoWinBrawlSwitch = autoBrawlsFolder:AddSwitch("Auto Win Brawls", function(bool)
+local autoWinBrawlSwitch = autoBrawlsFolder:AddSwitch(T("AutoWinBrawls"), function(bool)
 	getgenv().autoWinBrawl = bool
 
 	-- Equip Punch Tool function - will be called repeatedly
@@ -445,7 +865,7 @@ local autoWinBrawlSwitch = autoBrawlsFolder:AddSwitch("Auto Win Brawls", functio
 end)
 
 -- Auto Join Brawl Only - FIXED to join only once and properly turn off
-autoBrawlsFolder:AddSwitch("Auto Brawls", function(bool)
+autoBrawlsFolder:AddSwitch(T("AutoBrawls"), function(bool)
 	getgenv().autoJoinBrawl = bool
 
 	task.spawn(function()
@@ -493,7 +913,7 @@ local function teleportAndStart(machineName, position)
 end
 
 -- Jungle Gym Bench Press
-jungleGymFolder:AddSwitch("Jungle Bench Press", function(bool)
+jungleGymFolder:AddSwitch(T("JungleBenchPress"), function(bool)
 	if getgenv().working and not bool then
 		getgenv().working = false
 		return
@@ -506,7 +926,7 @@ jungleGymFolder:AddSwitch("Jungle Bench Press", function(bool)
 end)
 
 -- Jungle Gym Squat
-jungleGymFolder:AddSwitch("Jungle Squat", function(bool)
+jungleGymFolder:AddSwitch(T("JungleSquat"), function(bool)
 	if getgenv().working and not bool then
 		getgenv().working = false
 		return
@@ -519,7 +939,7 @@ jungleGymFolder:AddSwitch("Jungle Squat", function(bool)
 end)
 
 -- Jungle Gym Pull Up
-jungleGymFolder:AddSwitch("Jungle Pull Ups", function(bool)
+jungleGymFolder:AddSwitch(T("JunglePullUps"), function(bool)
 	if getgenv().working and not bool then
 		getgenv().working = false
 		return
@@ -532,7 +952,7 @@ jungleGymFolder:AddSwitch("Jungle Pull Ups", function(bool)
 end)
 
 -- Jungle Gym Boulder
-jungleGymFolder:AddSwitch("Jungle Boulder", function(bool)
+jungleGymFolder:AddSwitch(T("JungleBoulder"), function(bool)
 	if getgenv().working and not bool then
 		getgenv().working = false
 		return
@@ -552,22 +972,22 @@ local workoutPositions = {
 	["Bench Press"] = {
 		["Eternal Gym"] = CFrame.new(-7176.19141, 45.394104, -1106.31421),
 		["Legend Gym"] = CFrame.new(4111.91748, 1020.46674, -3799.97217),
-		["Muscle King Gym"] = CFrame.new(-8590.06152, 46.0167427, -6043.34717)
+		[T("MuscleKingGym")] = CFrame.new(-8590.06152, 46.0167427, -6043.34717)
 	},
 	["Squat"] = {
 		["Eternal Gym"] = CFrame.new(-7176.19141, 45.394104, -1106.31421),
 		["Legend Gym"] = CFrame.new(4304.99023, 987.829956, -4124.2334),
-		["Muscle King Gym"] = CFrame.new(-8940.12402, 13.1642084, -5699.13477)
+		[T("MuscleKingGym")] = CFrame.new(-8940.12402, 13.1642084, -5699.13477)
 	},
 	["Deadlift"] = {
 		["Eternal Gym"] = CFrame.new(-7176.19141, 45.394104, -1106.31421),
 		["Legend Gym"] = CFrame.new(4304.99023, 987.829956, -4124.2334),
-		["Muscle King Gym"] = CFrame.new(-8940.12402, 13.1642084, -5699.13477)
+		[T("MuscleKingGym")] = CFrame.new(-8940.12402, 13.1642084, -5699.13477)
 	},
 	["Pull Up"] = {
 		["Eternal Gym"] = CFrame.new(-7176.19141, 45.394104, -1106.31421),
 		["Legend Gym"] = CFrame.new(4304.99023, 987.829956, -4124.2334),
-		["Muscle King Gym"] = CFrame.new(-8940.12402, 13.1642084, -5699.13477)
+		[T("MuscleKingGym")] = CFrame.new(-8940.12402, 13.1642084, -5699.13477)
 	}
 }
 
@@ -583,7 +1003,7 @@ local workoutTypes = {
 local gymLocations = {
 	"Eternal Gym",
 	"Legend Gym",
-	"Muscle King Gym"
+	T("MuscleKingGym")
 }
 
 -- Spanish translations for workout types
@@ -636,8 +1056,8 @@ for _, workoutType in ipairs(workoutTypes) do
 			else
 				-- Notify user if position is not found
 				game:GetService("StarterGui"):SetCore("SendNotification", {
-					Title = "Error",
-					Text = "Position not found for " .. workoutType .. " in " .. selectedGym,
+					Title = T("Error"),
+					Text = T("Positionnotfoundfor") .. workoutType .. " in " .. selectedGym,
 					Duration = 5
 				})
 			end
@@ -652,7 +1072,7 @@ end
 local opThingsFolder = mainTab:AddFolder("OP Things/Farms")
 
 -- Anti Knockback Toggle
-opThingsFolder:AddSwitch("Anti Knockback", function(Value)
+opThingsFolder:AddSwitch(T("AntiKnockback"), function(Value)
 	if Value then
 		local playerName = game.Players.LocalPlayer.Name
 		local rootPart = game.Workspace:FindFirstChild(playerName):FindFirstChild("HumanoidRootPart")
@@ -672,7 +1092,7 @@ opThingsFolder:AddSwitch("Anti Knockback", function(Value)
 end)
 
 -- Anti AFK Button
-opThingsFolder:AddButton("Anti AFK", function()
+opThingsFolder:AddButton(T("AntiAFK"), function()
 	-- Anti AFK implementation
 	local GC = getconnections or get_signal_cons
 	if GC then
@@ -694,8 +1114,8 @@ opThingsFolder:AddButton("Anti AFK", function()
 
 	-- Notify user
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "Anti AFK",
-		Text = "Anti AFK has been enabled!",
+		Title = T("AntiAFK"),
+		Text = T("AntiAFKhasbeenenabled"),
 		Duration = 5
 	})
 
@@ -723,7 +1143,7 @@ function gettool()
 end
 
 -- Add all rock farming toggles to the Auto Rock folder
-autoRockFolder:AddSwitch("Tiny Rock", function(Value)
+autoRockFolder:AddSwitch(T("TinyRock"), function(Value)
 	selectrock = "Tiny Island Rock"
 	getgenv().autoFarm = Value
 
@@ -747,7 +1167,7 @@ autoRockFolder:AddSwitch("Tiny Rock", function(Value)
 	end)
 end)
 
-autoRockFolder:AddSwitch("Starter Rock", function(Value)
+autoRockFolder:AddSwitch(T("StarterRock"), function(Value)
 	selectrock = "Starter Island Rock"
 	getgenv().autoFarm = Value
 
@@ -771,8 +1191,8 @@ autoRockFolder:AddSwitch("Starter Rock", function(Value)
 	end)
 end)
 
-autoRockFolder:AddSwitch("Legend Beach Rock", function(Value)
-	selectrock = "Legend Beach Rock"
+autoRockFolder:AddSwitch(T("LegendBeachRock"), function(Value)
+	selectrock = T("LegendBeachRock")
 	getgenv().autoFarm = Value
 
 	task.spawn(function()
@@ -795,7 +1215,7 @@ autoRockFolder:AddSwitch("Legend Beach Rock", function(Value)
 	end)
 end)
 
-autoRockFolder:AddSwitch("Frozen Rock", function(Value)
+autoRockFolder:AddSwitch(T("FrozenRock"), function(Value)
 	selectrock = "Frost Gym Rock"
 	getgenv().autoFarm = Value
 
@@ -819,7 +1239,7 @@ autoRockFolder:AddSwitch("Frozen Rock", function(Value)
 	end)
 end)
 
-autoRockFolder:AddSwitch("Mythical Rock", function(Value)
+autoRockFolder:AddSwitch(T("MythicalRock"), function(Value)
 	selectrock = "Mythical Gym Rock"
 	getgenv().autoFarm = Value
 
@@ -843,7 +1263,7 @@ autoRockFolder:AddSwitch("Mythical Rock", function(Value)
 	end)
 end)
 
-autoRockFolder:AddSwitch("Eternal Rock", function(Value)
+autoRockFolder:AddSwitch(T("EternalRock"), function(Value)
 	selectrock = "Eternal Gym Rock"
 	getgenv().autoFarm = Value
 
@@ -867,7 +1287,7 @@ autoRockFolder:AddSwitch("Eternal Rock", function(Value)
 	end)
 end)
 
-autoRockFolder:AddSwitch("Legend Rock", function(Value)
+autoRockFolder:AddSwitch(T("LegendRock"), function(Value)
 	selectrock = "Legend Gym Rock"
 	getgenv().autoFarm = Value
 
@@ -891,7 +1311,7 @@ autoRockFolder:AddSwitch("Legend Rock", function(Value)
 	end)
 end)
 
-autoRockFolder:AddSwitch("Muscle King Rock", function(Value)
+autoRockFolder:AddSwitch(T("MuscleKingRock"), function(Value)
 	selectrock = "Muscle King Gym Rock"
 	getgenv().autoFarm = Value
 
@@ -915,7 +1335,7 @@ autoRockFolder:AddSwitch("Muscle King Rock", function(Value)
 	end)
 end)
 
-autoRockFolder:AddSwitch("Jungle Rock", function(Value)
+autoRockFolder:AddSwitch(T("JungleRock"), function(Value)
 	selectrock = "Ancient Jungle Rock"
 	getgenv().autoFarm = Value
 
@@ -939,7 +1359,7 @@ autoRockFolder:AddSwitch("Jungle Rock", function(Value)
 	end)
 end)
 
-local rebirthsFolder = farmPlusTab:AddFolder("Rebirths")
+local rebirthsFolder = farmPlusTab:AddFolder(T("Rebirths"))
 
 -- Target rebirth input - direct text input
 rebirthsFolder:AddTextBox("Rebirth Target", function(text)
@@ -949,14 +1369,14 @@ rebirthsFolder:AddTextBox("Rebirth Target", function(text)
 		updateStats() -- Call the stats update function
 
 		game:GetService("StarterGui"):SetCore("SendNotification", {
-			Title = "Objetivo Atualizado",
-			Text = "Novo Objetivo: " .. tostring(targetRebirthValue) .. " renascimentos",
+			Title = T("ObjetivoAtualizado"),
+			Text = T("NovoObjetivo") .. tostring(targetRebirthValue) .. " renascimentos",
 			Duration = 0
 		})
 	else
 		game:GetService("StarterGui"):SetCore("SendNotification", {
-			Title = "Entrada Inválida",
-			Text = "Por favor coloque um número válido maior que 0",
+			Title = T("EntradaInvlida"),
+			Text = T("Porfavorcoloqueumnmerovlidomaiorque0"),
 			Duration = 0
 		})
 	end
@@ -965,7 +1385,7 @@ end)
 -- Create toggle switches
 local infiniteSwitch -- Forward declaration
 
-local targetSwitch = rebirthsFolder:AddSwitch(T("AutoRebirth"), function(bool)
+local targetSwitch = rebirthsFolder:AddSwitch(T("AutoRebirthTarget"), function(bool)
 	_G.targetRebirthActive = bool
 
 	if bool then
@@ -985,8 +1405,8 @@ local targetSwitch = rebirthsFolder:AddSwitch(T("AutoRebirth"), function(bool)
 					_G.targetRebirthActive = false
 
 					game:GetService("StarterGui"):SetCore("SendNotification", {
-						Title = "Rebirth Alcançado!",
-						Text = "Você alcançou " .. tostring(targetRebirthValue) .. " renascimentos",
+						Title = T("RebirthAlcanado"),
+						Text = T("Vocalcanou") .. tostring(targetRebirthValue) .. " renascimentos",
 						Duration = 4
 					})
 
@@ -999,7 +1419,7 @@ local targetSwitch = rebirthsFolder:AddSwitch(T("AutoRebirth"), function(bool)
 	end
 end, "Renacimiento automático em busca do objetivo")
 
-infiniteSwitch = rebirthsFolder:AddSwitch(T("InfiniteRebirth"), function(bool)
+infiniteSwitch = rebirthsFolder:AddSwitch(T("AutoRebirthInfinite"), function(bool)
 	_G.infiniteRebirthActive = bool
 
 	if bool then
@@ -1018,7 +1438,7 @@ infiniteSwitch = rebirthsFolder:AddSwitch(T("InfiniteRebirth"), function(bool)
 	end
 end, "Renascimento continuo sem parar")
 
-local sizeSwitch = rebirthsFolder:AddSwitch("Auto Size 1", function(bool)
+local sizeSwitch = rebirthsFolder:AddSwitch(T("AutoSize1"), function(bool)
 	_G.autoSizeActive = bool
 
 	if bool then
@@ -1030,7 +1450,7 @@ local sizeSwitch = rebirthsFolder:AddSwitch("Auto Size 1", function(bool)
 	end
 end, "Estabelece o tamanho em 1")
 
-local teleportSwitch = rebirthsFolder:AddSwitch("Auto Teleport to Muscle King", function(bool)
+local teleportSwitch = rebirthsFolder:AddSwitch(T("AutoTeleporttoMuscleKing"), function(bool)
 	_G.teleportActive = bool
 
 	if bool then
@@ -1047,7 +1467,7 @@ end, "Teletransporte continuo ao King Muscle")
 local autoEquipToolsFolder = farmPlusTab:AddFolder("Auto Equip Tools")
 
 -- Free AutoLift Gamepass Button
-autoEquipToolsFolder:AddButton("Gamepass AutoLift", function()
+autoEquipToolsFolder:AddButton(T("GamepassAutoLift"), function()
 	local gamepassFolder = game:GetService("ReplicatedStorage").gamepassIds
 	local player = game:GetService("Players").LocalPlayer
 	for _, gamepass in pairs(gamepassFolder:GetChildren()) do
@@ -1059,7 +1479,7 @@ autoEquipToolsFolder:AddButton("Gamepass AutoLift", function()
 end, "Desbloquea a gamepass de AutoLift gratis")
 
 -- Auto Weight Toggle
-autoEquipToolsFolder:AddSwitch("Auto Weight", function(Value)
+autoEquipToolsFolder:AddSwitch(T("AutoWeight"), function(Value)
 	_G.AutoWeight = Value
 
 	if Value then
@@ -1085,7 +1505,7 @@ autoEquipToolsFolder:AddSwitch("Auto Weight", function(Value)
 end, "Levanta pesos automáticamente")
 
 -- Auto Pushups Toggle
-autoEquipToolsFolder:AddSwitch("Auto Pushups", function(Value)
+autoEquipToolsFolder:AddSwitch(T("AutoPushups"), function(Value)
 	_G.AutoPushups = Value
 
 	if Value then
@@ -1111,7 +1531,7 @@ autoEquipToolsFolder:AddSwitch("Auto Pushups", function(Value)
 end, "Faz flexões automáticamente")
 
 -- Auto Handstands Toggle
-autoEquipToolsFolder:AddSwitch("Auto Handstands", function(Value)
+autoEquipToolsFolder:AddSwitch(T("AutoHandstands"), function(Value)
 	_G.AutoHandstands = Value
 
 	if Value then
@@ -1137,7 +1557,7 @@ autoEquipToolsFolder:AddSwitch("Auto Handstands", function(Value)
 end, "Faz paradas de mão automáticamente")
 
 -- Auto Situps Toggle
-autoEquipToolsFolder:AddSwitch("Auto Situps", function(Value)
+autoEquipToolsFolder:AddSwitch(T("AutoSitups"), function(Value)
 	_G.AutoSitups = Value
 
 	if Value then
@@ -1163,7 +1583,7 @@ autoEquipToolsFolder:AddSwitch("Auto Situps", function(Value)
 end, "Faz abdominais automáticamente")
 
 -- Auto Punch Toggle
-autoEquipToolsFolder:AddSwitch("Auto Punch", function(Value)
+autoEquipToolsFolder:AddSwitch(T("AutoPunch"), function(Value)
 	_G.fastHitActive = Value
 
 	if Value then
@@ -1213,7 +1633,7 @@ autoEquipToolsFolder:AddSwitch("Auto Punch", function(Value)
 end, "Dá socos automáticamente")
 
 -- Fast Tools Toggle
-autoEquipToolsFolder:AddSwitch("Fast Tools", function(Value)
+autoEquipToolsFolder:AddSwitch(T("FastTools"), function(Value)
 	_G.FastTools = Value
 
 	local defaultSpeeds = {
@@ -1281,23 +1701,23 @@ local hasStartedTracking = false
 
 local statsFolder = farmPlusTab:AddFolder("Stats")
 
-statsFolder:AddLabel("Strength")
-local strengthStatsLabel = statsFolder:AddLabel("Actual: Waiting... | Gained: 0 | Per Hour: 0 | Per Day: 0")
+statsFolder:AddLabel(T("Strength"))
+local strengthStatsLabel = statsFolder:AddLabel(T("ActualWaitingGained0PerHour0PerDay0"))
 
-statsFolder:AddLabel("Durability")
-local durabilityStatsLabel = statsFolder:AddLabel("Actual: Waiting... | Gained: 0 | Per Hour: 0 | Per Day: 0")
+statsFolder:AddLabel(T("Durability"))
+local durabilityStatsLabel = statsFolder:AddLabel(T("ActualWaitingGained0PerHour0PerDay0"))
 
-statsFolder:AddLabel("Rebirths")
-local rebirthsStatsLabel = statsFolder:AddLabel("Actual: Waiting... | Gained: 0 | Per Hour: 0 | Per Day: 0")
+statsFolder:AddLabel(T("Rebirths"))
+local rebirthsStatsLabel = statsFolder:AddLabel(T("ActualWaitingGained0PerHour0PerDay0"))
 
-statsFolder:AddLabel("Kills")
-local killsStatsLabel = statsFolder:AddLabel("Actual: Waiting... | Gained: 0 | Per Hour: 0 | Per Day: 0")
+statsFolder:AddLabel(T("Kills"))
+local killsStatsLabel = statsFolder:AddLabel(T("ActualWaitingGained0PerHour0PerDay0"))
 
-statsFolder:AddLabel("Brawls")
-local brawlsStatsLabel = statsFolder:AddLabel("Actual: Waiting... | Gained: 0 | Per Hour: 0 | Per Day: 0")
+statsFolder:AddLabel(T("Brawls"))
+local brawlsStatsLabel = statsFolder:AddLabel(T("ActualWaitingGained0PerHour0PerDay0"))
 
-statsFolder:AddLabel("Time Of Session")
-local sessionTimeLabel = statsFolder:AddLabel("Time: 00:00:00")
+statsFolder:AddLabel(T("TimeOfSession"))
+local sessionTimeLabel = statsFolder:AddLabel(T("Time000000"))
 
 local function formatNumber(number)
 	if number >= 1e15 then return string.format("%.2fQ", number/1e15)
@@ -1465,15 +1885,15 @@ statsFolder:AddButton(T("ResetStats"), function()
 	}
 
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "Estatísticas",
-		Text = "O progresso de estatísticas foram reinciados!",
+		Title = T("Estatsticas"),
+		Text = T("Oprogressodeestatsticasforamreinciados"),
 		Duration = 0
 	})
 end)
 
-statsFolder:AddButton(T("CopyStats"), function()
+statsFolder:AddButton(T("CopiarEstatsticas"), function()
 	local player = game.Players.LocalPlayer
-	local statsText = "Estatísticas de Muscle Legends:\n\n"
+	local statsText = T("EstatsticasdeMuscleLegendsnn")
 
 	statsText = statsText .. "Strength: " .. tostring(player.leaderstats.Strength.Value) .. "\n"
 	statsText = statsText .. "Durability: " .. tostring(player.Durability.Value) .. "\n"
@@ -1522,7 +1942,7 @@ pets:AddLabel(T("Pets"))
 
 -- Create pet dropdown with the correct format
 local selectedPet = "Neon Guardian" -- Default selection
-local petDropdown = pets:AddDropdown("Selecionar Pet", function(text)
+local petDropdown = pets:AddDropdown(T("SelecionarPet"), function(text)
 	selectedPet = text
 	print("Pet selecionado: " .. text)
 end)
@@ -1566,7 +1986,7 @@ petDropdown:Add("White Pheonix")
 petDropdown:Add("Yellow Butterfly")
 
 -- Auto open pet toggle
-pets:AddSwitch("Auto Open Pet", function(bool)
+pets:AddSwitch(T("AutoOpenPet"), function(bool)
 	_G.AutoHatchPet = bool
 
 	if bool then
@@ -1583,11 +2003,11 @@ pets:AddSwitch("Auto Open Pet", function(bool)
 end)
 
 -- Aura section
-pets:AddLabel(T("Auras"))
+pets:AddLabel(T("AURAS"))
 
 -- Create aura dropdown with the correct format
 local selectedAura = "Blue Aura" -- Default selection
-local auraDropdown = pets:AddDropdown("Select Aura", function(text)
+local auraDropdown = pets:AddDropdown(T("SelectAura"), function(text)
 	selectedAura = text
 	print("Aura selecionada: " .. text)
 end)
@@ -1605,7 +2025,7 @@ auraDropdown:Add("Entropic Blast")
 auraDropdown:Add("Eternal Megastrike")
 auraDropdown:Add("Grand Supernova")
 auraDropdown:Add("Green Aura")
-auraDropdown:Add("Inferno")
+auraDropdown:Add(T("Inferno"))
 auraDropdown:Add("Lightning")
 auraDropdown:Add("Muscle King")
 auraDropdown:Add("Power Lightning")
@@ -1619,7 +2039,7 @@ auraDropdown:Add("Unstable Mirage")
 auraDropdown:Add("Yellow Aura")
 
 -- Auto open aura toggle
-pets:AddSwitch("Auto Open Auras", function(bool)
+pets:AddSwitch(T("AutoOpenAuras"), function(bool)
 	_G.AutoHatchAura = bool
 
 	if bool then
@@ -1636,13 +2056,13 @@ pets:AddSwitch("Auto Open Auras", function(bool)
 end)
 
 -- Create the Misc tab
-local miscTab = window:AddTab(T("Misc"))
+local miscTab = window:AddTab("Misc")
 
 -- Create the first folder
 local misc1Folder = miscTab:AddFolder("Misc 1")
 
 -- Add ad removal button to Misc 1
-misc1Folder:AddButton("Remove Portals", function()
+misc1Folder:AddButton(T("RemovePortals"), function()
 	-- Remove existing ad portals
 	for _, portal in pairs(game:GetDescendants()) do
 		if portal.Name == "RobloxForwardPortals" then
@@ -1662,8 +2082,8 @@ misc1Folder:AddButton("Remove Portals", function()
 	end)
 
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "Destruir Portal",
-		Text = "Portal destruido",
+		Title = T("DestruirPortal"),
+		Text = T("Portaldestruido"),
 		Duration = 0
 	})
 end)
@@ -1738,7 +2158,7 @@ local function makePartsSolid()
 end
 
 -- Add Walk on Water toggle
-misc1Folder:AddSwitch(T("WalkOnWater"), function(bool)
+misc1Folder:AddSwitch(T("WalkonWater"), function(bool)
 	if bool then
 		createParts()
 	else
@@ -1780,7 +2200,7 @@ end)
 local misc2Folder = miscTab:AddFolder("Misc 2")
 
 -- Fast Punch toggle with auto-punch functionality and persistent equipping
-misc2Folder:AddSwitch("Auto Punch", function(bool)
+misc2Folder:AddSwitch(T("AutoPunch"), function(bool)
 	_G.FastPunch = bool
 
 	if bool then
@@ -1847,7 +2267,7 @@ misc2Folder:AddSwitch("Auto Punch", function(bool)
 end)
 
 -- Fast Situps toggle with auto-situps functionality and persistent equipping
-misc2Folder:AddSwitch("Auto Situps", function(bool)
+misc2Folder:AddSwitch(T("AutoSitups"), function(bool)
 	_G.FastSitups = bool
 
 	if bool then
@@ -1905,7 +2325,7 @@ misc2Folder:AddSwitch("Auto Situps", function(bool)
 end)
 
 -- Fast Weight toggle with auto-weight functionality and persistent equipping
-misc2Folder:AddSwitch("Auto Weight", function(bool)
+misc2Folder:AddSwitch(T("AutoWeight"), function(bool)
 	_G.FastWeight = bool
 
 	if bool then
@@ -1963,7 +2383,7 @@ misc2Folder:AddSwitch("Auto Weight", function(bool)
 end)
 
 -- Fast Pushups toggle with auto-pushups functionality and persistent equipping
-misc2Folder:AddSwitch("Auto Pushups", function(bool)
+misc2Folder:AddSwitch(T("AutoPushups"), function(bool)
 	_G.FastPushups = bool
 
 	if bool then
@@ -2021,7 +2441,7 @@ misc2Folder:AddSwitch("Auto Pushups", function(bool)
 end)
 
 -- Fast Handstands toggle with auto-handstands functionality and persistent equipping
-misc2Folder:AddSwitch("Auto Handstands", function(bool)
+misc2Folder:AddSwitch(T("AutoHandstands"), function(bool)
 	_G.FastHandstands = bool
 
 	if bool then
@@ -2093,34 +2513,34 @@ misc3Folder:AddTextBox("Velocidade", function(text)
 	if num and num > 0 then
 		customSpeed = num
 		game:GetService("StarterGui"):SetCore("SendNotification", {
-			Title = "Velocidade Definida",
-			Text = "Nova velocidade: " .. customSpeed,
+			Title = T("VelocidadeDefinida"),
+			Text = T("Novavelocidade") .. customSpeed,
 			Duration = 3
 		})
 	end
 end)
 
-misc3Folder:AddSwitch("Ativar Speed", function(bool)
+misc3Folder:AddSwitch(T("AtivarSpeed"), function(bool)
 	speedEnabled = bool
 	if speedEnabled then
 		humanoid.WalkSpeed = customSpeed
 		game:GetService("StarterGui"):SetCore("SendNotification", {
-			Title = "Speed Hack Ativado",
-			Text = "Andando a " .. customSpeed .. " de velocidade",
+			Title = T("SpeedHackAtivado"),
+			Text = T("Andandoa") .. customSpeed .. " de velocidade",
 			Duration = 3
 		})
 	else
 		humanoid.WalkSpeed = 16 -- volta ao normal
 		game:GetService("StarterGui"):SetCore("SendNotification", {
-			Title = "Speed Hack Desligado",
-			Text = "Velocidade voltou ao normal (16)",
+			Title = T("SpeedHackDesligado"),
+			Text = T("Velocidadevoltouaonormal16"),
 			Duration = 3
 		})
 	end
 end)
 
 -- Add No-Clip toggle
-misc3Folder:AddSwitch("No-Clip", function(bool)
+misc3Folder:AddSwitch(T("NoClip"), function(bool)
 	_G.NoClip = bool
 
 	if bool then
@@ -2138,15 +2558,15 @@ misc3Folder:AddSwitch("No-Clip", function(bool)
 		end)
 
 		game:GetService("StarterGui"):SetCore("SendNotification", {
-			Title = "No-Clip Ativado",
-			Text = "Agora você pode atravessar os objetos",
+			Title = T("NoClipAtivado"),
+			Text = T("Agoravocpodeatravessarosobjetos"),
 			Duration = 0
 		})
 	end
 end)
 
 -- Add Infinite Jump toggle
-misc3Folder:AddSwitch("Jumpy Infinite", function(bool)
+misc3Folder:AddSwitch(T("JumpyInfinite"), function(bool)
 	_G.InfiniteJump = bool
 
 	if bool then
@@ -2160,15 +2580,15 @@ misc3Folder:AddSwitch("Jumpy Infinite", function(bool)
 		end)
 
 		game:GetService("StarterGui"):SetCore("SendNotification", {
-			Title = "Pulo Infinito Ativado",
-			Text = "Agora pode pular infinitamente",
+			Title = T("PuloInfinitoAtivado"),
+			Text = T("Agorapodepularinfinitamente"),
 			Duration = 0
 		})
 	end
 end)
 
 -- Time Changer
-local timeDropdown = misc3Folder:AddDropdown("Change Time", function(selection)
+local timeDropdown = misc3Folder:AddDropdown(T("ChangeTime"), function(selection)
 	local lighting = game:GetService("Lighting")
 
 	if selection == "Night" then
@@ -2180,8 +2600,8 @@ local timeDropdown = misc3Folder:AddDropdown("Change Time", function(selection)
 	end
 
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "Hora trocada",
-		Text = "A hora do dia foi trocada para: " .. selection,
+		Title = T("Horatrocada"),
+		Text = T("Ahoradodiafoitrocadapara") .. selection,
 		Duration = 0
 	})
 end)
@@ -2239,7 +2659,7 @@ local function useOneEgg()
 	ReplicatedStorage.rEvents.proteinEggEvent:FireServer("useEgg")
 end
 
-rebirthFarmFolder:AddLabel("OP farm Pack (By SnowZN)")
+rebirthFarmFolder:AddLabel(T("OPfarmPackBySnowZN"))
 
 rebirthFarmFolder:AddTextBox("Target Rebirth )", function(text)
 	targetRebirth = tonumber(text) or math.huge
@@ -2265,7 +2685,7 @@ local function unlockPlayerPosition()
 	end
 end
 
-rebirthFarmFolder:AddSwitch("Lock Position / pack", function(bool)
+rebirthFarmFolder:AddSwitch(T("LockPositionpack"), function(bool)
 	if bool then
 		if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
 			local currentPosition = player.Character.HumanoidRootPart.CFrame
@@ -2277,7 +2697,7 @@ rebirthFarmFolder:AddSwitch("Lock Position / pack", function(bool)
 end)
 
 -- Rebirth Farm
-local packFarm = rebirthFarmFolder:AddSwitch("Rebirth Farm / pack", function(bool)
+local packFarm = rebirthFarmFolder:AddSwitch(T("RebirthFarmpack"), function(bool)
 	isRunning = bool
 
 	task.spawn(function()
@@ -2328,7 +2748,7 @@ local packFarm = rebirthFarmFolder:AddSwitch("Rebirth Farm / pack", function(boo
 end)
 
 -- Hide Frames
-local frameToggle = rebirthFarmFolder:AddSwitch("Hide Frames / pack", function(bool)
+local frameToggle = rebirthFarmFolder:AddSwitch(T("HideFramespack"), function(bool)
 	local rSto = game:GetService("ReplicatedStorage")
 	for _, obj in pairs(rSto:GetChildren()) do
 		if obj.Name:match("Frame$") then
@@ -2338,7 +2758,7 @@ local frameToggle = rebirthFarmFolder:AddSwitch("Hide Frames / pack", function(b
 end)
 
 -- Fast Strength
-local speedGrind = rebirthFarmFolder:AddSwitch("Fast Strength / pack", function(bool)
+local speedGrind = rebirthFarmFolder:AddSwitch(T("FastStrengthpack"), function(bool)
 	if _G.fastGrindActive then
 		_G.fastGrindActive = false
 		print("Grind parado.")
@@ -2396,7 +2816,7 @@ local speedGrind = rebirthFarmFolder:AddSwitch("Fast Strength / pack", function(
 end)
 
 -- 🚀 Fast Rebirth (itsbleedingyz)
-rebirthFarmFolder:AddSwitch("Fast Rebirth the Fast Strength / pack", function(bool)
+rebirthFarmFolder:AddSwitch(T("FastRebirththeFastStrengthpack"), function(bool)
 	fastRebirth = bool
 	if fastRebirth then
 		task.spawn(function()
@@ -2514,39 +2934,39 @@ execLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 execLabel.TextColor3 = Color3.fromRGB(0, 255, 0)
 execLabel.Font = Enum.Font.Code
 execLabel.TextSize = 20
-execLabel.Text = "Para desligar saia do jogo ou clique abaixo onde você clicou!"
+execLabel.Text = T("Paradesligarsaiadojogooucliqueabaixoondevocclicou")
 execLabel.ZIndex = 999999
 execLabel.Visible = false
 execLabel.Parent = screenGui
 
 -- Botão para ativar Anti-Lag
-rebirthFarmFolder:AddButton("Ativar Anti-Lag", function()
+rebirthFarmFolder:AddButton(T("AtivarAntiLag"), function()
 	blackFrame.Visible = true
 	execLabel.Visible = true
 	StarterGui:SetCore("SendNotification", {
-		Title = "Anti-Lag",
-		Text = "Tela preta ativada",
+		Title = T("AntiLag"),
+		Text = T("Telapretaativada"),
 		Duration = 3
 	})
 end)
 
 -- Botão para desativar Anti-Lag
-rebirthFarmFolder:AddButton("Desativar Anti-Lag", function()
+rebirthFarmFolder:AddButton(T("DesativarAntiLag"), function()
 	blackFrame.Visible = false
 	execLabel.Visible = false
 	StarterGui:SetCore("SendNotification", {
-		Title = "Anti-Lag",
-		Text = "Tela preta desativada",
+		Title = T("AntiLag"),
+		Text = T("Telapretadesativada"),
 		Duration = 3
 	})
 end)
 
 -- BOTÕES EXTRAS PARA PETS
-rebirthFarmFolder:AddButton("Equipar Samurai", function()
+rebirthFarmFolder:AddButton(T("EquiparSamurai"), function()
 	equipUniquePet("Swift Samurai")
 end)
 
-rebirthFarmFolder:AddButton("Tirar Pets", function()
+rebirthFarmFolder:AddButton(T("TirarPets"), function()
 	unequipAllPets()
 end)
 
@@ -2610,8 +3030,8 @@ local function autoEatEgg()
 		else
 			autoEgg = false
 			StarterGui:SetCore("SendNotification", {
-				Title = "Auto Egg",
-				Text = "Nenhum ovo encontrado no inventário!",
+				Title = T("AutoEgg"),
+				Text = T("Nenhumovoencontradonoinventrio"),
 				Duration = 3
 			})
 			break
@@ -2620,14 +3040,14 @@ local function autoEatEgg()
 end
 
 -- 🔛 Switch ligar/desligar Auto Eat Egg
-eggFarmFolder:AddSwitch("Auto Eat Egg", function(bool)
+eggFarmFolder:AddSwitch(T("AutoEatEgg"), function(bool)
 	autoEgg = bool
 	if bool then
 		task.spawn(autoEatEgg)
 	else
 		StarterGui:SetCore("SendNotification", {
-			Title = "Auto Egg",
-			Text = "Desligado com sucesso",
+			Title = T("AutoEgg"),
+			Text = T("Desligadocomsucesso"),
 			Duration = 3
 		})
 	end
@@ -2639,15 +3059,15 @@ eggFarmFolder:AddTextBox("Delay (segundos)", function(text)
 	if num and num > 0 then
 		eggDelay = num
 		StarterGui:SetCore("SendNotification", {
-			Title = "Auto Egg",
-			Text = "Delay ajustado para " .. eggDelay .. "s",
+			Title = T("AutoEgg"),
+			Text = T("Delayajustadopara") .. eggDelay .. "s",
 			Duration = 3
 		})
 	end
 end)
 
 -- 🥚 Comer um único ovo manualmente
-eggFarmFolder:AddButton("Comer 1 Ovo", function()
+eggFarmFolder:AddButton(T("Comer1Ovo"), function()
 	local egg = getAnyEgg()
 	if egg then
 		if ReplicatedStorage:FindFirstChild("rEvents") and ReplicatedStorage.rEvents:FindFirstChild("proteinEggEvent") then
@@ -2673,14 +3093,14 @@ eggFarmFolder:AddButton("Comer 1 Ovo", function()
 		end
 	else
 		StarterGui:SetCore("SendNotification", {
-			Title = "Auto Egg",
-			Text = "Nenhum ovo disponível no inventário!",
+			Title = T("AutoEgg"),
+			Text = T("Nenhumovodisponvelnoinventrio"),
 			Duration = 3
 		})
 	end
 end)
 
-eggFarmFolder:AddLabel("Funções de Egg Farm (By SnowZN)")
+eggFarmFolder:AddLabel(T("FunesdeEggFarmBySnowZN"))
 
 local killerTab = window:AddTab("Killer")
 
@@ -2808,15 +3228,15 @@ local function findClosestPlayer(input)
 	return nil
 end
 
-local whitelistedPlayersLabel = killerTab:AddLabel("Whitelisted Players: None")
-local targetPlayerLabel = killerTab:AddLabel("Target Player: None")
+local whitelistedPlayersLabel = killerTab:AddLabel(T("WhitelistedPlayersNone"))
+local targetPlayerLabel = killerTab:AddLabel(T("TargetPlayerNone"))
 
 -- Update UI functions
 local function updateWhitelistedPlayersLabel()
 	if #_G.whitelistedPlayers == 0 then
-		whitelistedPlayersLabel.Text = "Whitelisted Players: None"
+		whitelistedPlayersLabel.Text = T("WhitelistedPlayersNone")
 	else
-		local displayText = "Players on the White List: "
+		local displayText = T("PlayersontheWhiteList")
 		for i, playerInfo in ipairs(_G.whitelistedPlayers) do
 			if i > 1 then displayText = displayText .. ", " end
 			displayText = displayText .. playerInfo
@@ -2827,14 +3247,14 @@ end
 
 local function updateTargetPlayerLabel()
 	if _G.targetPlayer == "" then
-		targetPlayerLabel.Text = "Jogador Marcado: Nenhum"
+		targetPlayerLabel.Text = T("JogadorMarcadoNenhum")
 	else
-		targetPlayerLabel.Text = "Jogador Marcado: " .. _G.targetPlayer
+		targetPlayerLabel.Text = T("JogadorMarcado") .. _G.targetPlayer
 	end
 end
 
 -- Auto-whitelist friends feature
-local autoWhitelistFriendsSwitch = killerTab:AddSwitch("Add Friends to Whitelist Automatically", function(bool)
+local autoWhitelistFriendsSwitch = killerTab:AddSwitch(T("AddFriendstoWhitelistAutomatically"), function(bool)
 	_G.autoWhitelistFriends = bool
 
 	if bool then
@@ -2914,13 +3334,13 @@ killerTab:AddTextBox("Remove Player from Whitelist (Name/Nickname)", function(te
 	end
 end)
 
-killerTab:AddButton("Clear WhiteList", function()
+killerTab:AddButton(T("ClearWhiteList"), function()
 	_G.whitelistedPlayers = {}
 	updateWhitelistedPlayersLabel()
 end)
 
 -- Improved auto-kill all feature with better error handling and reliability
-local autoKillAllSwitch = killerTab:AddSwitch("Automatically Remove Everyone (Except Whitelist)", function(bool)
+local autoKillAllSwitch = killerTab:AddSwitch(T("AutomaticallyRemoveEveryoneExceptWhitelist"), function(bool)
 	_G.autoKillAll = bool
 
 	if bool then
@@ -2978,13 +3398,13 @@ killerTab:AddTextBox("Select Target Player (Name/Nickname)", function(text)
 	end
 end)
 
-killerTab:AddButton("Remove Target", function()
+killerTab:AddButton(T("RemoveTarget"), function()
 	_G.targetPlayer = ""
 	updateTargetPlayerLabel()
 end)
 
 -- Improved auto-kill target feature
-local autoKillTargetSwitch = killerTab:AddSwitch("Delete Target Automatically", function(bool)
+local autoKillTargetSwitch = killerTab:AddSwitch(T("DeleteTargetAutomatically"), function(bool)
 	_G.autoKillTarget = bool
 
 	if bool and _G.targetPlayer ~= "" then
@@ -3011,7 +3431,7 @@ local autoKillTargetSwitch = killerTab:AddSwitch("Delete Target Automatically", 
 end)
 
 -- Manual kill buttons
-killerTab:AddButton("Remove Everyone (Except Whitelist)", function()
+killerTab:AddButton(T("RemoveEveryoneExceptWhitelist"), function()
 	pcall(function()
 		for _, player in ipairs(game:GetService("Players"):GetPlayers()) do
 			if player ~= game.Players.LocalPlayer then
@@ -3033,7 +3453,7 @@ killerTab:AddButton("Remove Everyone (Except Whitelist)", function()
 	end)
 end)
 
-killerTab:AddButton("Delete Target", function()
+killerTab:AddButton(T("DeleteTarget"), function()
 	if _G.targetPlayer ~= "" then
 		pcall(function()
 			local targetName = _G.targetPlayer:match("^([^%(]+)")
@@ -3056,158 +3476,158 @@ updateTargetPlayerLabel()
 
 local teleportTab = window:AddTab("Teleport")
 
-teleportTab:AddButton("Spawn", function()
+teleportTab:AddButton(T("Spawn"), function()
 	local player = game.Players.LocalPlayer
 	local character = player.Character or player.CharacterAdded:Wait()
 	local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
 	humanoidRootPart.CFrame = CFrame.new(2, 8, 115)
 
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "Teleporte",
-		Text = "Teleportando ao Inicio",
+		Title = T("Teleporte"),
+		Text = T("TeleportandoaoInicio"),
 		Duration = 0
 	})
 end)
 
-teleportTab:AddButton("Secret Area", function()
+teleportTab:AddButton(T("SecretArea"), function()
 	local player = game.Players.LocalPlayer
 	local character = player.Character or player.CharacterAdded:Wait()
 	local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
 	humanoidRootPart.CFrame = CFrame.new(1947, 2, 6191)
 
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "Teleporte",
-		Text = "Teleportando a Área Secreta",
+		Title = T("Teleporte"),
+		Text = T("TeleportandoareaSecreta"),
 		Duration = 0
 	})
 end)
 
-teleportTab:AddButton("Tiny Island", function()
+teleportTab:AddButton(T("TinyIsland"), function()
 	local player = game.Players.LocalPlayer
 	local character = player.Character or player.CharacterAdded:Wait()
 	local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
 	humanoidRootPart.CFrame = CFrame.new(-34, 7, 1903)
 
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "Teleporte",
-		Text = "Teleportando a Área Pequena",
+		Title = T("Teleporte"),
+		Text = T("TeleportandoareaPequena"),
 		Duration = 0
 	})
 end)
 
-teleportTab:AddButton("Teleport Frozen", function()
+teleportTab:AddButton(T("TeleportFrozen"), function()
 	local player = game.Players.LocalPlayer
 	local character = player.Character or player.CharacterAdded:Wait()
 	local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
 	humanoidRootPart.CFrame = CFrame.new(- 2600.00244, 3.67686558, - 403.884369, 0.0873617008, 1.0482899e-09, 0.99617666, 3.07204253e-08, 1, - 3.7464023e-09, - 0.99617666, 3.09302628e-08, 0.0873617008)
 
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "Teleporte",
-		Text = "Teleportando a Área Congelada",
+		Title = T("Teleporte"),
+		Text = T("TeleportandoareaCongelada"),
 		Duration = 0
 	})
 end)
 
-teleportTab:AddButton("Mythical", function()
+teleportTab:AddButton(T("Mythical"), function()
 	local player = game.Players.LocalPlayer
 	local character = player.Character or player.CharacterAdded:Wait()
 	local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
 	humanoidRootPart.CFrame = CFrame.new(2255, 7, 1071)
 
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "Teleporte",
-		Text = "Teleportando a Área Mística",
+		Title = T("Teleporte"),
+		Text = T("TeleportandoareaMstica"),
 		Duration = 0
 	})
 end)
 
-teleportTab:AddButton("Inferno", function()
+teleportTab:AddButton(T("Inferno"), function()
 	local player = game.Players.LocalPlayer
 	local character = player.Character or player.CharacterAdded:Wait()
 	local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
 	humanoidRootPart.CFrame = CFrame.new(-6768, 7, -1287)
 
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "Teleporte",
-		Text = "Teleportando a area Inferno",
+		Title = T("Teleporte"),
+		Text = T("TeleportandoaareaInferno"),
 		Duration = 0
 	})
 end)
 
-teleportTab:AddButton("Legend", function()
+teleportTab:AddButton(T("Legend"), function()
 	local player = game.Players.LocalPlayer
 	local character = player.Character or player.CharacterAdded:Wait()
 	local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
 	humanoidRootPart.CFrame = CFrame.new(4604, 991, -3887)
 
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "Teleporte",
-		Text = "Teleportando a area das Lendas",
+		Title = T("Teleporte"),
+		Text = T("TeleportandoaareadasLendas"),
 		Duration = 0
 	})
 end)
 
-teleportTab:AddButton("Muscle King Gym", function()
+teleportTab:AddButton(T("MuscleKingGym"), function()
 	local player = game.Players.LocalPlayer
 	local character = player.Character or player.CharacterAdded:Wait()
 	local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
 	humanoidRootPart.CFrame = CFrame.new(-8646, 17, -5738)
 
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "Teleporte",
-		Text = "Teleportando ao Rei do Musculo",
+		Title = T("Teleporte"),
+		Text = T("TeleportandoaoReidoMusculo"),
 		Duration = 0
 	})
 end)
 
-teleportTab:AddButton("Jungle", function()
+teleportTab:AddButton(T("Jungle"), function()
 	local player = game.Players.LocalPlayer
 	local character = player.Character or player.CharacterAdded:Wait()
 	local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
 	humanoidRootPart.CFrame = CFrame.new(-8659, 6, 2384)
 
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "Teleporte",
-		Text = "Teleportando a Selva",
+		Title = T("Teleporte"),
+		Text = T("TeleportandoaSelva"),
 		Duration = 0
 	})
 end)
 
-teleportTab:AddButton("Brawl Lava", function()
+teleportTab:AddButton(T("BrawlLava"), function()
 	local player = game.Players.LocalPlayer
 	local character = player.Character or player.CharacterAdded:Wait()
 	local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
 	humanoidRootPart.CFrame = CFrame.new(4471, 119, -8836)
 
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "Teleporte",
-		Text = "Teleportando a ilha de Lava",
+		Title = T("Teleporte"),
+		Text = T("TeleportandoailhadeLava"),
 		Duration = 0
 	})
 end)
 
-teleportTab:AddButton("Brawl Desert", function()
+teleportTab:AddButton(T("BrawlDesert"), function()
 	local player = game.Players.LocalPlayer
 	local character = player.Character or player.CharacterAdded:Wait()
 	local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
 	humanoidRootPart.CFrame = CFrame.new(960, 17, -7398)
 
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "Teleporte",
-		Text = "Teleportando ao ilha de Deserto",
+		Title = T("Teleporte"),
+		Text = T("TeleportandoaoilhadeDeserto"),
 		Duration = 0
 	})
 end)
 
-teleportTab:AddButton("Brawl Regular", function()
+teleportTab:AddButton(T("BrawlRegular"), function()
 	local player = game.Players.LocalPlayer
 	local character = player.Character or player.CharacterAdded:Wait()
 	local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
 	humanoidRootPart.CFrame = CFrame.new(-1849, 20, -6335)
 
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "Teleporte",
-		Text = "Teleportando a Combate de Praia",
+		Title = T("Teleporte"),
+		Text = T("TeleportandoaCombatedePraia"),
 		Duration = 0
 	})
 end)
@@ -3215,24 +3635,24 @@ end)
 local noteTab = window:AddTab("Info")
 
 -- Título principal
-noteTab:AddLabel("Snow paid")
+noteTab:AddLabel(T("Snowpaid"))
 
 -- Espaço
 noteTab:AddLabel("")
 
 -- Créditos
-noteTab:AddLabel("Criado por snow")
+noteTab:AddLabel(T("Criadoporsnow"))
 
 -- Espaço
 noteTab:AddLabel("")
 
 -- Botão do Discord
-noteTab:AddLabel("🌐 Servidor Oficial do Script!:")
-noteTab:AddButton("Entrar no Discord", function()
+noteTab:AddLabel(T("ServidorOficialdoScript"))
+noteTab:AddButton(T("EntrarnoDiscord"), function()
 	setclipboard("https://discord.gg/Kw5avTFZ8A") -- copia o link
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "Zenith Store",
-		Text = "Link do Discord copiado! Cole no navegador ou no discord para entrar.",
+		Title = T("ZenithStore"),
+		Text = T("LinkdoDiscordcopiadoColenonavegadorounodiscordparaentrar"),
 		Duration = 5
 	})
 end)
@@ -3241,12 +3661,12 @@ end)
 noteTab:AddLabel("")
 
 -- Botão do YouTube
-noteTab:AddLabel("📺 Meu Canal no YouTube:")
-noteTab:AddButton("Acessar YouTube", function()
+noteTab:AddLabel(T("MeuCanalnoYouTube"))
+noteTab:AddButton(T("AcessarYouTube"), function()
 	setclipboard("https://youtube.com/@snowsplezz?si=nEjKRgSVzC3T03Ya") -- << coloque o link do seu canal
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "Zenith Store",
-		Text = "Link do YouTube copiado! Cole no navegador para acessar meu canal.",
+		Title = T("ZenithStore"),
+		Text = T("LinkdoYouTubecopiadoColenonavegadorparaacessarmeucanal"),
 		Duration = 5
 	})
 end)
