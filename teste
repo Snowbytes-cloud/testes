@@ -3,88 +3,46 @@ _G.Language = "pt" -- opções: "pt", "en", "es"
 
 local Lang = {
     pt = {
+        ReduceGraphics = T("ReduceGraphics"),
+        RestoreGraphics = T("RestoreGraphics"),
         AntiAFK = "Anti-AFK",
-        ReduceGraphics = "Reduzir Gráficos",
-        RestoreGraphics = "Restaurar Gráficos",
-        AutoWinBrawls = "Auto Win Brawls",
-        AutoBrawls = "Auto Brawls",
-        JungleBench = "Jungle Bench Press",
-        JungleSquat = "Jungle Squat",
-        JunglePullUps = "Jungle Pull Ups",
-        JungleBoulder = "Jungle Boulder",
-        MachinesList = "Lista de Máquinas",
-        Stats = "Estatísticas",
-        CopyStats = "Copiar Estatísticas",
-        ResetStats = "Resetar Estatísticas",
-        RebirthTarget = "Objetivo de Rebirth",
         AutoRebirth = "Auto Rebirth",
-        InfiniteRebirth = "Auto Rebirth (Infinito)",
-        AutoPunch = "Auto Punch",
-        AutoWeight = "Auto Weight",
-        AutoPushups = "Auto Pushups",
-        AutoSitups = "Auto Situps",
-        AutoHandstands = "Auto Handstands",
-        FastTools = "Ferramentas Rápidas",
-        Pets = "Pets",
+        InfiniteRebirth = "Rebirth Infinito",
+        Stats = "Estatísticas",
+        ResetStats = "Resetar Estatísticas",
+        CopyStats = T("CopyStats"),
+        Pets = T("Pets"),
         Auras = "Auras",
-        Misc = "Misc",
+        Misc = T("Misc"),
         WalkOnWater = "Andar sobre a Água",
         AutoSpinWheel = "Auto Girar Roleta",
         AutoClaimGifts = "Auto Coletar Presentes"
     },
     en = {
-        AntiAFK = "Anti-AFK",
         ReduceGraphics = "Reduce Graphics",
         RestoreGraphics = "Restore Graphics",
-        AutoWinBrawls = "Auto Win Brawls",
-        AutoBrawls = "Auto Brawls",
-        JungleBench = "Jungle Bench Press",
-        JungleSquat = "Jungle Squat",
-        JunglePullUps = "Jungle Pull Ups",
-        JungleBoulder = "Jungle Boulder",
-        MachinesList = "Machines List",
-        Stats = "Statistics",
-        CopyStats = "Copy Statistics",
-        ResetStats = "Reset Statistics",
-        RebirthTarget = "Rebirth Target",
+        AntiAFK = "Anti-AFK",
         AutoRebirth = "Auto Rebirth",
-        InfiniteRebirth = "Auto Rebirth (Infinite)",
-        AutoPunch = "Auto Punch",
-        AutoWeight = "Auto Weight",
-        AutoPushups = "Auto Pushups",
-        AutoSitups = "Auto Situps",
-        AutoHandstands = "Auto Handstands",
-        FastTools = "Fast Tools",
-        Pets = "Pets",
+        InfiniteRebirth = "Infinite Rebirth",
+        Stats = "Statistics",
+        ResetStats = "Reset Statistics",
+        CopyStats = "Copy Statistics",
+        Pets = T("Pets"),
         Auras = "Auras",
-        Misc = "Misc",
-        WalkOnWater = "Walk on Water",
-        AutoSpinWheel = "Auto Spin Wheel",
-        AutoClaimGifts = "Auto Claim Gifts"
+        Misc = T("Misc"),
+        WalkOnWater = T("WalkOnWater"),
+        AutoSpinWheel = T("AutoSpinWheel"),
+        AutoClaimGifts = T("AutoClaimGifts")
     },
     es = {
-        AntiAFK = "Anti-AFK",
         ReduceGraphics = "Reducir Gráficos",
-        RestoreGraphics = "Restaurar Gráficos",
-        AutoWinBrawls = "Auto Ganar Brawls",
-        AutoBrawls = "Auto Brawls",
-        JungleBench = "Banco de la Jungla",
-        JungleSquat = "Sentadilla de la Jungla",
-        JunglePullUps = "Dominadas de la Jungla",
-        JungleBoulder = "Roca de la Jungla",
-        MachinesList = "Lista de Máquinas",
-        Stats = "Estadísticas",
-        CopyStats = "Copiar Estadísticas",
-        ResetStats = "Reiniciar Estadísticas",
-        RebirthTarget = "Objetivo de Renacimiento",
+        RestoreGraphics = T("RestoreGraphics"),
+        AntiAFK = "Anti-AFK",
         AutoRebirth = "Renacimiento Automático",
         InfiniteRebirth = "Renacimiento Infinito",
-        AutoPunch = "Auto Puñetazo",
-        AutoWeight = "Auto Peso",
-        AutoPushups = "Auto Flexiones",
-        AutoSitups = "Auto Abdominales",
-        AutoHandstands = "Auto Parada de Manos",
-        FastTools = "Herramientas Rápidas",
+        Stats = "Estadísticas",
+        ResetStats = "Reiniciar Estadísticas",
+        CopyStats = "Copiar Estadísticas",
         Pets = "Mascotas",
         Auras = "Auras",
         Misc = "Varios",
@@ -142,6 +100,28 @@ local displayName = player.DisplayName
 
 -- cria a janela
 local window = library:AddWindow("Snow paid", {
+
+-- 🌐 Dropdown para escolher idioma
+local langDropdown = window:AddDropdown("Idioma / Language / Idioma", function(selected)
+    if selected == "Português" then
+        _G.Language = "pt"
+    elseif selected == "English" then
+        _G.Language = "en"
+    elseif selected == "Español" then
+        _G.Language = "es"
+    end
+
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Idioma",
+        Text = "Idioma alterado para: " .. selected,
+        Duration = 3
+    })
+end)
+
+langDropdown:Add("Português")
+langDropdown:Add("English")
+langDropdown:Add("Español")
+
     main_color = Color3.fromRGB(10, 10, 80), -- azul escuro
     min_size   = Vector2.new(660, 660),
     can_resize = false
@@ -179,7 +159,7 @@ mainTab:AddLabel("Feito por SnowZ")
 
 -- Add Anti-AFK toggle
 local antiAFKEnabled = true
-mainTab:AddSwitch("Anti-AFK System", function(bool)
+mainTab:AddSwitch(T("AntiAFK"), function(bool)
 	antiAFKEnabled = bool
 
 	if bool then
@@ -211,7 +191,7 @@ for _, v in pairs(lighting:GetChildren()) do
 end
 
 -- Botão para reduzir gráficos (novo código otimizado)
-mainTab:AddButton("Reduzir Gráficos", function()
+mainTab:AddButton(T("ReduceGraphics"), function()
 	local decalsyeeted = true
 	local g = game
 	local w = g.Workspace
@@ -251,7 +231,7 @@ mainTab:AddButton("Reduzir Gráficos", function()
 end)
 
 -- Botão para restaurar gráficos
-mainTab:AddButton("Restaurar Gráficos", function()
+mainTab:AddButton(T("RestoreGraphics"), function()
 	lighting.GlobalShadows = originalSettings.GlobalShadows
 	lighting.FogEnd = originalSettings.FogEnd
 	lighting.Brightness = originalSettings.Brightness
@@ -985,7 +965,7 @@ end)
 -- Create toggle switches
 local infiniteSwitch -- Forward declaration
 
-local targetSwitch = rebirthsFolder:AddSwitch("Auto Rebirth Target", function(bool)
+local targetSwitch = rebirthsFolder:AddSwitch(T("AutoRebirth"), function(bool)
 	_G.targetRebirthActive = bool
 
 	if bool then
@@ -1019,7 +999,7 @@ local targetSwitch = rebirthsFolder:AddSwitch("Auto Rebirth Target", function(bo
 	end
 end, "Renacimiento automático em busca do objetivo")
 
-infiniteSwitch = rebirthsFolder:AddSwitch("Auto Rebirth (Infinite)", function(bool)
+infiniteSwitch = rebirthsFolder:AddSwitch(T("InfiniteRebirth"), function(bool)
 	_G.infiniteRebirthActive = bool
 
 	if bool then
@@ -1467,7 +1447,7 @@ spawn(function()
 	end
 end)
 
-statsFolder:AddButton("Reset Stats", function()
+statsFolder:AddButton(T("ResetStats"), function()
 	local player = game.Players.LocalPlayer
 	sessionStartStrength = player.leaderstats.Strength.Value
 	sessionStartDurability = player.Durability.Value
@@ -1491,7 +1471,7 @@ statsFolder:AddButton("Reset Stats", function()
 	})
 end)
 
-statsFolder:AddButton("Copiar Estatísticas", function()
+statsFolder:AddButton(T("CopyStats"), function()
 	local player = game.Players.LocalPlayer
 	local statsText = "Estatísticas de Muscle Legends:\n\n"
 
@@ -1534,11 +1514,11 @@ end
 
 
 
-local pets = window:AddTab("Pets")
+local pets = window:AddTab(T("Pets"))
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 -- Pet section
-pets:AddLabel("Pets")
+pets:AddLabel(T("Pets"))
 
 -- Create pet dropdown with the correct format
 local selectedPet = "Neon Guardian" -- Default selection
@@ -1603,7 +1583,7 @@ pets:AddSwitch("Auto Open Pet", function(bool)
 end)
 
 -- Aura section
-pets:AddLabel("AURAS")
+pets:AddLabel(T("Auras"))
 
 -- Create aura dropdown with the correct format
 local selectedAura = "Blue Aura" -- Default selection
@@ -1656,7 +1636,7 @@ pets:AddSwitch("Auto Open Auras", function(bool)
 end)
 
 -- Create the Misc tab
-local miscTab = window:AddTab("Misc")
+local miscTab = window:AddTab(T("Misc"))
 
 -- Create the first folder
 local misc1Folder = miscTab:AddFolder("Misc 1")
@@ -1758,7 +1738,7 @@ local function makePartsSolid()
 end
 
 -- Add Walk on Water toggle
-misc1Folder:AddSwitch("Walk on Water", function(bool)
+misc1Folder:AddSwitch(T("WalkOnWater"), function(bool)
 	if bool then
 		createParts()
 	else
@@ -1767,7 +1747,7 @@ misc1Folder:AddSwitch("Walk on Water", function(bool)
 end)
 
 -- Add Auto Spin Wheel toggle
-misc1Folder:AddSwitch("Auto Spin Wheel", function(bool)
+misc1Folder:AddSwitch(T("AutoSpinWheel"), function(bool)
 	_G.AutoSpinWheel = bool
 
 	if bool then
@@ -1780,7 +1760,7 @@ misc1Folder:AddSwitch("Auto Spin Wheel", function(bool)
 end)
 
 -- Add Auto Claim Gifts toggle
-misc1Folder:AddSwitch("Auto Claim Gifts", function(bool)
+misc1Folder:AddSwitch(T("AutoClaimGifts"), function(bool)
 	_G.AutoClaimGifts = bool
 
 	if bool then
